@@ -1,0 +1,54 @@
+header {
+  background-color: #212429;
+  color: white;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header a {
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#homeSection .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-image: url("https://source.unsplash.com/wfh8dDlNFOk/1600x900");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+p {
+  color: red;
+}
+#homeSection img {
+  border-radius: 50%;}
+.imageSection1 {
+  background-image: url("https://source.unsplash.com/4ulffa6qoKA/1200x800");
+}
+.imageSection {
+  height: 400px;
+  background-size: cover;
+  background-position: center;}
+footer {
+  background-color: #212429;
+  color: white;}
+footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;}
